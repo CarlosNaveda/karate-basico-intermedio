@@ -10,7 +10,7 @@ Feature: plan de pruebas
     And path 'users', userId
     #* header Content-Type = 'Application/json'
     When method GET
-    And match response.data.id == 2
+    And match response.data.id == userId
     Then status 200
 
   Scenario: caso de prueba tipo post
