@@ -1,0 +1,11 @@
+{
+  "userPost": {
+    "name": "morpheus",
+    "job": "leader"
+  },
+
+  "userPut": {
+    "name": "morpheus",
+    "job": "zion resident"
+  }
+}
