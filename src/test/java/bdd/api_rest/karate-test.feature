@@ -5,7 +5,7 @@ Feature: plan de pruebas
     * def userId = 2
 
   Scenario: caso de prueba tipo GET
-    Given url baseUrlRegres
+    Given url baseUrlReqres
     And path 'users', userId
     #* header Content-Type = 'Application/json'
     When method GET
@@ -13,14 +13,14 @@ Feature: plan de pruebas
     Then status 200
 
   Scenario: caso de prueba tipo post
-    Given url baseUrlRegres
+    Given url baseUrlReqres
     And path 'users'
     When request {"name": "morpheus", "job": "leader"}
     And method POST
     Then status 201
 
   Scenario: caso de prueba de tipo PUT
-    Given url baseUrlRegres
+    Given url baseUrlReqres
     And path 'users', userId
     When request
     """
@@ -33,7 +33,7 @@ Feature: plan de pruebas
     Then status 200
 
   Scenario: caso de prueba tipo DELETE
-    Given url baseUrlRegres
+    Given url baseUrlReqres
     And path 'users', userId
     When method DELETE
     Then status 204

@@ -32,7 +32,7 @@ function fn() {
       spotify_client_id:spotify_client_id,
       spotify_client_secret:spotify_client_secret,
       urlBaseSesion4:urlBaseSesion4,
-      baseUrlRegres: 'https://reqres.in/api',
+      baseUrlReqres: 'https://reqres.in/api',
    }
   return config;
 }
