@@ -8,6 +8,7 @@ function fn() {
   //credenciales
   var spotify_client_id = karate.properties['spotify-client-id'] || java.lang.System.getenv('SPOTIFY_CLIENT_ID');
   var spotify_client_secret = karate.properties['spotify-client-secret'] || java.lang.System.getenv('SPOTIFY_CLIENT_SECRET');
+  var reqres_api_key = karate.properties['reqres-api-key'] || java.lang.System.getenv('REQRES_API_KEY');
   var urlBaseSesion4 = karate.properties['sesion4.urlBase'] || 'http://localhost:8089';
 
   if (!env) {
@@ -33,6 +34,7 @@ function fn() {
       spotify_client_secret:spotify_client_secret,
       urlBaseSesion4:urlBaseSesion4,
       baseUrlReqres: 'https://reqres.in/api',
+      reqres_api_key: reqres_api_key,
    }
   return config;
 }

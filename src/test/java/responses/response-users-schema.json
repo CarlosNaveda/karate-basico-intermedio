@@ -1,0 +1,19 @@
+{
+  "name": "#string",
+  "job": "#string",
+  "id": "#string",
+  "createdAt": "#string",
+  "_meta": {
+    "powered_by": "#string",
+    "docs_url": "#string",
+    "upgrade_url": "#string",
+    "example_url": "#string",
+    "variant": "#string",
+    "message": "#string",
+    "cta": {
+      "label": "#string",
+      "url": "#string"
+    },
+    "context": "#string"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "#string",
+    "collection_id": "#string",
+    "project_id": "#number",
+    "app_user_id": "#null",
+    "created_by": "#number",
+    "created_at": "#string",
+    "updated_at": "#string",
+    "deleted_at": "#null",
+    "data": {
+      "name": "#string",
+      "price": "#number"
+    }
+  }
+}

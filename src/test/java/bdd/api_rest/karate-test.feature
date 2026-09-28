@@ -4,7 +4,7 @@ Feature: plan de pruebas
   Background:
     Given url baseUrlReqres
     * def userId = 2
-    * def requests = read('classpath:requests/request-regres.json')
+    * def requests = read('classpath:requests/request-reqres.json')
 
   Scenario: obtener usuario
     And path 'users', userId
