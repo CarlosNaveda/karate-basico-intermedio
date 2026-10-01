@@ -2,7 +2,9 @@
   "productPost": {
     "data": {
       "name": "Nintendo Switch 2",
-      "price": 299.99
+      "price": 299.99,
+      "Category": "Electronics",
+      "in_stock": true
     }
   }
 }

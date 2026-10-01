@@ -18,8 +18,9 @@ Feature: Reto 2 - Flujo Comprobable
     And match response == productsSchema
     And match response.data.data.name == productsRequest.productPost.data.name
     And match response.data.data.price == productsRequest.productPost.data.price
+    And match response.data.data.Category == productsRequest.productPost.data.Category
+    And match response.data.data.in_stock == productsRequest.productPost.data.in_stock
     * def productId = response.data.id
-
 
   @get-product
   Scenario: Consultar producto, validar schema y datos
@@ -31,5 +32,7 @@ Feature: Reto 2 - Flujo Comprobable
     And match response.data.id == productId
     And match response.data.data.name == productsRequest.productPost.data.name
     And match response.data.data.price == productsRequest.productPost.data.price
+    And match response.data.data.Category == productsRequest.productPost.data.Category
+    And match response.data.data.in_stock == productsRequest.productPost.data.in_stock
 
 

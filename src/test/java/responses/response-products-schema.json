@@ -10,7 +10,9 @@
     "deleted_at": "#null",
     "data": {
       "name": "#string",
-      "price": "#number"
+      "price": "#number",
+      "Category": "#string",
+      "in_stock": "#boolean"
     }
   }
 }
