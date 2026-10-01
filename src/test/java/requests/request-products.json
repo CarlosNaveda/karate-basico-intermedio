@@ -1,10 +1,20 @@
 {
   "productPost": {
-    "data": {
-      "name": "Nintendo Switch 2",
-      "price": 299.99,
-      "Category": "Electronics",
-      "in_stock": true
+    "NintendoSwitch2": {
+      "data": {
+        "name": "Nintendo Switch 2",
+        "price": 299.99,
+        "Category": "Electronics",
+        "in_stock": true
+      }
+    },
+    "PlayStation5Pro": {
+      "data": {
+        "name": "PlayStation 5 Pro",
+        "price": 499.99,
+        "Category": "Electronics",
+        "in_stock": true
+      }
     }
   }
 }
