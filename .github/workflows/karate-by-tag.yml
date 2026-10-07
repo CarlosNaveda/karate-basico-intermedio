@@ -32,7 +32,7 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
-        run: mvn clean test Dtest=LabTest -Dkarate.env=${{ inputs.karate_env }} "-Dkarate.options=--tags ${{ inputs.karate_tag }}"
+        run: mvn clean test -Dtest=LabTest -Dkarate.env=${{ inputs.karate_env }} "-Dkarate.options=--tags ${{ inputs.karate_tag }}"
 
       - name: Upload Karate reports
         if: always()
